@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "name": "modern-tailwind",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "dependencies": {
+  },
+  "scripts": {
+    "watch": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
